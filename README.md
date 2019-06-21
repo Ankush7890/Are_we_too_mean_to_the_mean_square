@@ -17,7 +17,7 @@ PS - The file meanVscrossentropy.ipynb is almost independent of any other file. 
 
 Description:<br>
 **meanVscrossentropy:** implents the **class Model** with instantiation of two objects (i) with mean square (ii) with cross-entropy cost function.<br>
-**Class IncreaseCost inherits** the methods from **class Model** and also creates a **function Increase**.<br>
+**Class IncreaseCost inherits** the functions from **class Model** and also creates a **function Increase**.<br>
 
 **Irisdataset:** implements function plotfeatures with plots different classes (Y-values) with respect to all the combinations of two features (X1-X2) depending which set of feautures are input in arguments. <br>
 Function plotdecisionboundary creates an decision boundary on the plotted points by plotfeatures with or without solid fill. For creating the decision boundaries without the fill it first generates the interpolated function using meshgrid of (X1,X2), then finds out the mid Y-Values (0.5, 1.5 ... etc.). <br>
